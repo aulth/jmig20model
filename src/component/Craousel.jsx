@@ -10,7 +10,7 @@ const Craousel = () => {
                 <video id="background-video" className='absolute top-0 z-10 xl:hidden block' autoPlay loop muted poster="/images/cover.jpg">
                     <source src="/video/language-phone.mp4" type="video/mp4" />
                 </video>
-                <div className='z-50 flex items-center flex-col text-white xl:ml-[10%] xl:mt-[15%] mt-20'>
+                <div className='z-20 flex items-center flex-col text-white xl:ml-[10%] xl:mt-[15%] mt-20'>
                     <h2 className=" md:text-[26px] text-[20px] prim-font capitalize">WELCOME TO</h2>
                     <h3 className="font-bold md:text-[45px] text-[30px] prim-font">G20 Model - JMI</h3>
                     <img src="https://www.g20.org/content/dam/gtwenty/banner-carousal/vasudhaiva-kutumbakam.png"  className='md:w-80 w-64' alt="theme of g20" />

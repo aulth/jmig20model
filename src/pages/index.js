@@ -3,6 +3,9 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/component/Navbar'
 import Craousel from '@/component/Craousel'
 import Head from 'next/head'
+import About from '@/component/About'
+import Sponsor from '@/component/Sponsor'
+import MediaResources from '@/component/MediaResources'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -15,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#2D2F33" ></meta>
         <link rel="canonical" href="https://mohd-usman.vercel.app/" />
-        <link rel="alternate" href="https://mohd-usman.vercel.app/" hreflang="en-in" />
+        <link rel="alternate" href="https://mohd-usman.vercel.app/" hrefLang="en-in" />
         {/* facebook open graph  */}
         <meta property="og:title" content="Mohd Usman - full stack web developer" />
         <meta property="og:site_name" content="Mohd Usman" />
@@ -26,6 +29,9 @@ export default function Home() {
       </Head>
     <Navbar/>
     <Craousel/>
+    <About/>
+    <Sponsor/>
+    <MediaResources/>
     </>
   )
 }
