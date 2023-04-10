@@ -4,10 +4,10 @@ const Craousel = () => {
     return (
         <>
             <div className="w-screen mx-auto h-screen  relative flex xl:justify-start justify-center xl:items-stretch items-center overflow-y-hidden">
-                <video id="background-video" className='absolute top-0 z-10 xl:block hidden' autoPlay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                <video id="background-video" className='absolute top-0 z-10 xl:block hidden' autoPlay loop muted poster="/images/cover.jpg">
                     <source src="/video/language.mp4" type="video/mp4" />
                 </video>
-                <video id="background-video" className='absolute top-0 z-10 xl:hidden block' autoPlay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                <video id="background-video" className='absolute top-0 z-10 xl:hidden block' autoPlay loop muted poster="/images/cover.jpg">
                     <source src="/video/language-phone.mp4" type="video/mp4" />
                 </video>
                 <div className='z-50 flex items-center flex-col text-white xl:ml-[10%] xl:mt-[15%] mt-20'>
