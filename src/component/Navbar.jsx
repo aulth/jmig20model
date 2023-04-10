@@ -21,7 +21,7 @@ const Navbar = () => {
                     <ul className='flex xl:flex-row flex-col xl:gap-5 gap-2 xl:items-center items-start xl:px-0 px-2'>
                         <li className='shrink-0 hover:text-[#2e59c1] xl:text-sm text-lg font-[500] border-b-2 border-white duration-200 hover:border-[#2e59c1]'><a href="#">About G20</a></li>
                         <li className='shrink-0 hover:text-[#2e59c1]  xl:text-sm text-lg font-[500] border-b-2 border-white duration-200 hover:border-[#2e59c1]'><a href="#">Media & Resources</a></li>
-                        <li className='shrink-0 hover:text-[#2e59c1]  xl:text-sm text-lg font-[500] border-b-2 border-white duration-200 hover:border-[#2e59c1]'><a href="#">Menu Item 3</a></li>
+                        <li className='shrink-0 hover:text-[#2e59c1]  xl:text-sm text-lg font-[500] border-b-2 border-white duration-200 hover:border-[#2e59c1]'><a href="#">Sponsor</a></li>
                     </ul>
                     <hr className='mt-1 xl:hidden' />
                     <ul className='flex xl:flex-row flex-col xl:gap-5 gap-2 xl:items-center items-start xl:mt-0 mt-2 xl:px-0 px-2'>
