@@ -4,61 +4,39 @@ import { BsFileEarmarkPdf } from 'react-icons/bs'
 const PhotoGallery = () => {
   return (
     <div className="w-full flex flex-wrap gap-4 justify-around">
-          <div className='md:w-[45%] w-full flex gap-2 items-start'>
-            <BsFileEarmarkPdf className='text-2xl mt-1 text-[#E04C4C]' />
-            <div className="w-full prim-font">
-              <a href="#">
-                <h3 className='font-semibold leading-6 '>Global Leaders of Tomorrow: Jamia Millia Islamia Hosts Successful G20 Model with Sponsorship from Ministry of External Affairs India</h3>
-              </a>
-              <p className="text-right text-gray-800 text-sm">10 April 2023</p>
-            </div>
-          </div>
-          <div className='md:w-[45%] w-full flex gap-2 items-start'>
-            <BsFileEarmarkPdf className='text-2xl mt-1 text-[#E04C4C]' />
-            <div className="w-full prim-font">
-              <a href="#">
-                <h3 className='font-semibold leading-6 '>Global Leaders of Tomorrow: Jamia Millia Islamia Hosts Successful G20 Model with Sponsorship from Ministry of External Affairs India</h3>
-              </a>
-              <p className="text-right text-gray-800 text-sm">10 April 2023</p>
-            </div>
-          </div>
-          <div className='md:w-[45%] w-full flex gap-2 items-start'>
-            <BsFileEarmarkPdf className='text-2xl mt-1 text-[#E04C4C]' />
-            <div className="w-full prim-font">
-              <a href="#">
-                <h3 className='font-semibold leading-6 '>Global Leaders of Tomorrow: Jamia Millia Islamia Hosts Successful G20 Model with Sponsorship from Ministry of External Affairs India</h3>
-              </a>
-              <p className="text-right text-gray-800 text-sm">10 April 2023</p>
-            </div>
-          </div>
-          <div className='md:w-[45%] w-full flex gap-2 items-start'>
-            <BsFileEarmarkPdf className='text-2xl mt-1 text-[#E04C4C]' />
-            <div className="w-full prim-font">
-              <a href="#">
-                <h3 className='font-semibold leading-6 '>Global Leaders of Tomorrow: Jamia Millia Islamia Hosts Successful G20 Model with Sponsorship from Ministry of External Affairs India</h3>
-              </a>
-              <p className="text-right text-gray-800 text-sm">10 April 2023</p>
-            </div>
-          </div>
-          <div className='md:w-[45%] w-full flex gap-2 items-start'>
-            <BsFileEarmarkPdf className='text-2xl mt-1 text-[#E04C4C]' />
-            <div className="w-full prim-font">
-              <a href="#">
-                <h3 className='font-semibold leading-6 '>Global Leaders of Tomorrow: Jamia Millia Islamia Hosts Successful G20 Model with Sponsorship from Ministry of External Affairs India</h3>
-              </a>
-              <p className="text-right text-gray-800 text-sm">10 April 2023</p>
-            </div>
-          </div>
-          <div className='md:w-[45%] w-full flex gap-2 items-start'>
-            <BsFileEarmarkPdf className='text-2xl mt-1 text-[#E04C4C]' />
-            <div className="w-full prim-font">
-              <a href="#">
-                <h3 className='font-semibold leading-6 '>Global Leaders of Tomorrow: Jamia Millia Islamia Hosts Successful G20 Model with Sponsorship from Ministry of External Affairs India</h3>
-              </a>
-              <p className="text-right text-gray-800 text-sm">10 April 2023</p>
-            </div>
-          </div>
-        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <figure>
+            <img src="https://www.g20.org/content/dam/gtwenty/gtwenty_new/gallery/april-2023/gandhinagar-2-4-april/cover_gandhi_2-4-april.jpg" className="w-full" />
+            <figcaption className="mt-2 font-semibold text-sm text-left">Capturing the Global Spirit: A Visual Journey Through the G20 Model at Jamia Millia Islamia</figcaption>
+            <div className="text-left mt-2 text-gray-500 text-sm">11/04/2023</div>
+          </figure>
+          <figure>
+            <img src="https://www.g20.org/content/dam/gtwenty/gtwenty_new/gallery/april-2023/gandhinagar-2-4-april/cover_gandhi_2-4-april.jpg" className="w-full" />
+            <figcaption className="mt-2 font-semibold text-sm text-left">Capturing the Global Spirit: A Visual Journey Through the G20 Model at Jamia Millia Islamia</figcaption>
+            <div className="text-left mt-2 text-gray-500 text-sm">11/04/2023</div>
+          </figure>
+          <figure>
+            <img src="https://www.g20.org/content/dam/gtwenty/gtwenty_new/gallery/april-2023/gandhinagar-2-4-april/cover_gandhi_2-4-april.jpg" className="w-full" />
+            <figcaption className="mt-2 font-semibold text-sm text-left">Capturing the Global Spirit: A Visual Journey Through the G20 Model at Jamia Millia Islamia</figcaption>
+            <div className="text-left mt-2 text-gray-500 text-sm">11/04/2023</div>
+          </figure>
+          <figure>
+            <img src="https://www.g20.org/content/dam/gtwenty/gtwenty_new/gallery/april-2023/gandhinagar-2-4-april/cover_gandhi_2-4-april.jpg" className="w-full" />
+            <figcaption className="mt-2 font-semibold text-sm text-left">Capturing the Global Spirit: A Visual Journey Through the G20 Model at Jamia Millia Islamia</figcaption>
+            <div className="text-left mt-2 text-gray-500 text-sm">11/04/2023</div>
+          </figure>
+          <figure>
+            <img src="https://www.g20.org/content/dam/gtwenty/gtwenty_new/gallery/april-2023/gandhinagar-2-4-april/cover_gandhi_2-4-april.jpg" className="w-full" />
+            <figcaption className="mt-2 font-semibold text-sm text-left">Capturing the Global Spirit: A Visual Journey Through the G20 Model at Jamia Millia Islamia</figcaption>
+            <div className="text-left mt-2 text-gray-500 text-sm">11/04/2023</div>
+          </figure>
+          <figure>
+            <img src="https://www.g20.org/content/dam/gtwenty/gtwenty_new/gallery/april-2023/gandhinagar-2-4-april/cover_gandhi_2-4-april.jpg" className="w-full" />
+            <figcaption className="mt-2 font-semibold text-sm text-left">Capturing the Global Spirit: A Visual Journey Through the G20 Model at Jamia Millia Islamia</figcaption>
+            <div className="text-left mt-2 text-gray-500 text-sm">11/04/2023</div>
+          </figure>
+      </div>
+    </div>
   )
 }
 

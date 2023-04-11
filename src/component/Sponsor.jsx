@@ -2,8 +2,8 @@ import React from 'react'
 
 const Sponsor = () => {
   return (
-    <div className="container mx-auto min-h-[calc(100vh-61px)] bg-white">
-      <div className="w-full bg-[url('/images/breadcrumb_bg.png')] py-8 md:px-20 px-4 sticky top-[61px]">
+    <div className="container mx-auto min-h-[calc(100vh-61px)] bg-white mt-[61px]">
+      <div className="w-full bg-[url('/images/breadcrumb_bg.png')] bg-cover py-8 md:px-20 px-4 sticky top-[61px]">
         <h2 className="font-bold prim-font text-white text-4xl">Sponsor</h2>
       </div>
       <div className='w-full flex gap-2 justify-center flex-col items-center py-8 md:px-20 px-4'>
