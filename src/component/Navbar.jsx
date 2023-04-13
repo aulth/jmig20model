@@ -13,12 +13,12 @@ const Navbar = () => {
     return (
         <header className="w-screen bg-white border-b z-50 border-orange-200 py-2 xl:px-20 px-4 flex items-center fixed top-0">
             <div className="container mx-auto flex justify-between items-center">
-                <div className=" w-full">
+                <div>
                     <Link href="/">
                         <img src="/images/g20-logo.png" className='w-32' alt="" />
                     </Link>
                 </div>
-                <nav className='xl:flex menu w-full  md:m-0 mx-auto justify-between hidden xl:static absolute top-[61px] left-0  bg-white xl:pt-0 pt-2'>
+                <nav className='xl:flex menu w-full  md:m-0 mx-auto justify-between hidden xl:static absolute top-[61px] left-0  bg-white xl:pt-0 pt-2 md:pb-0 pb-2'>
                     <ul className='flex xl:flex-row flex-col xl:gap-5 gap-2 xl:items-center items-start xl:px-0 px-2'>
                         <li className='shrink-0 hover:text-[#2e59c1] xl:text-sm text-base font-[500] border-b-2 border-white duration-200 hover:border-[#2e59c1]'><Link href="/about">About G20</Link></li>
                         <li className='shrink-0 hover:text-[#2e59c1]  xl:text-sm text-base font-[500] border-b-2 border-white duration-200 hover:border-[#2e59c1]'><Link href="/resources">Media & Resources</Link></li>

@@ -34,7 +34,7 @@ const Footer = () => {
                     <ul className="mt-4 flex">
                         <li className="mr-4"><a href="#"><AiFillFacebook  className='text-xl'/></a></li>
                         <li className="mr-4"><a href="#"><AiFillTwitterCircle className='text-xl'/></a></li>
-                        <li className="mr-4"><a href="#"><AiFillInstagram className='text-xl'/></a></li>
+                        <li className="mr-4"><a href="https://www.instagram.com/jmi.modelg20" target="_blank"><AiFillInstagram className='text-xl'/></a></li>
                         <li className="mr-4"><a href="#"><AiFillLinkedin className='text-xl'/></a></li>
                         <li><a href="#"></a></li>
                     </ul>
