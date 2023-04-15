@@ -13,9 +13,9 @@ const Navbar = () => {
     return (
         <header className="w-screen bg-white border-b z-50 border-orange-200 py-2 xl:px-20 px-4 flex items-center fixed top-0">
             <div className="container mx-auto flex justify-between items-center">
-                <div>
+                <div className='md:w-full'>
                     <Link href="/">
-                        <img src="/images/g20-logo.png" className='w-32' alt="" />
+                        <img src="/images/g20-logo.png" className='h-[50px]' alt="" />
                     </Link>
                 </div>
                 <nav className='xl:flex menu w-full  md:m-0 mx-auto justify-between hidden xl:static absolute top-[61px] left-0  bg-white xl:pt-0 pt-2 md:pb-0 pb-2'>

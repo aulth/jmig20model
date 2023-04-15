@@ -16,6 +16,14 @@
   }
 }
 
+@font-face{
+font-family:agency;
+src:url('/fonts/agency.ttf');
+}
+
+.footer-top-border{
+
+}
 body {
   overflow-x:hidden;
 }
