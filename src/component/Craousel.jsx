@@ -12,10 +12,10 @@ const Craousel = () => {
                 </video>
                 <div className="container flex justify-around items-center m-auto h-[calc(100vh-61px)] mt-[61px]">
                     <div className="w-full flex justify-center items-center h-[calc(100vh-61px)] flex-col">
-                        <img src="/images/g20-logo-white.png" className=' w-60 z-50' alt="" />
+                        <img src="/images/g20-logo-white.png" className=' w-60 z-10' alt="" />
                         <img src="https://www.g20.org/content/dam/gtwenty/banner-carousal/vasudhaiva-kutumbakam.png" className='md:w-80 w-64' alt="theme of g20" />
                     </div>
-                    <div className="w-full h-[calc(100vh-61px)"></div>
+                    <div className="w-full md:block hidden h-[calc(100vh-61px)"></div>
                 </div>
             </div>
         </>

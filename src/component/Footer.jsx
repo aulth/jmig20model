@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
     return (
         <footer className="py-8 bg-[url('/images/footer_bg.svg')] bg-cover relative ">
-            {/* <div className="w-screen h-1.5 bg-gradient-to-r from-orange-300 via-gray-200 to-green-300 top-0 absolute "></div> */}
+            <div className="w-screen h-1.5 footer-top-border top-0 absolute "></div>
             <div className="w-screen h-1.5 absolute top-0"></div>
             <div className="container mx-auto grid grid-cols-1 md:px-20 px-4 sm:grid-cols-5 gap-4">
                 <Link href="/">

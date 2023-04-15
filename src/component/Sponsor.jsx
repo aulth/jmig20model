@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 const Sponsor = () => {
   return (
-    <div className="container mx-auto min-h-[calc(100vh-61px)] bg-white mt-[61px]">
-      <div className="w-full flex flex-col  items-start justify-center  bg-[url('/images/breadcrumb_bg.png')] bg-cover h-[6rem] py-8 md:px-20 px-4 sticky top-[61px]">
+    <div className="container mx-auto min-h-[calc(100vh-61px-28px)] bg-white mt-[calc(61px+28px)]">
+      <div className="w-full flex flex-col  items-start justify-center  bg-[url('/images/breadcrumb_bg.png')] bg-cover h-[6rem] py-8 md:px-20 px-4 sticky top-[calc(61px+28px)]">
         <h2 className="font-bold font-[agency] tracking-wider  text-white text-4xl">Sponsor</h2>
         <nav className=''>
           <ul className='flex gap-2 items-center text-white text-sm'>

@@ -11,7 +11,7 @@ const Navbar = () => {
         }
     }
     return (
-        <header className="w-screen bg-white border-b z-50 border-orange-200 py-2 xl:px-20 px-4 flex items-center fixed top-0">
+        <header className="w-screen bg-white border-b z-40 border-orange-200 py-2 xl:px-20 px-4 flex items-center fixed top-7">
             <div className="container mx-auto flex justify-between items-center">
                 <div className='md:w-full'>
                     <Link href="/">
@@ -26,7 +26,7 @@ const Navbar = () => {
                     </ul>
                     <hr className='mt-1 xl:hidden' />
                     <ul className='flex xl:flex-row flex-col xl:gap-5 gap-2 xl:items-center items-start xl:mt-0 mt-2 xl:px-0 px-2'>
-                        <li className='shrink-0 hover:text-[#2e59c1] xl:text-sm text-base font-[500] border-b-2 border-white duration-200 hover:border-[#2e59c1]'><Link href="/registration">Registration</Link></li>
+                        <li className='shrink-0 hover:text-[#2e59c1] xl:text-sm text-base font-[500] border-b-2 border-white duration-200 hover:border-[#2e59c1]'><Link href="/">Registration</Link></li>
                         <li className='shrink-0 hover:text-[#2e59c1] xl:text-sm text-base font-[500] border-b-2 border-white duration-200 hover:border-[#2e59c1]'><Link href="/contact">Contact</Link></li>
                     </ul>
                 </nav>

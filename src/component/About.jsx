@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 const About = () => {
   return (
-    <div className="container mx-auto min-h-[calc(100vh-61px)] mt-[61px] bg-white">
-      <div className="w-full flex flex-col gap-1 items-start justify-center  bg-[url('/images/breadcrumb_bg.png')] bg-cover h-[6rem] py-8 md:px-20 px-4 sticky top-[61px]">
+    <div className="container mx-auto  mt-[calc(61px+28px)] bg-white">
+      <div className="w-full flex z-30 flex-col gap-1 items-start justify-center  bg-[url('/images/breadcrumb_bg.png')] bg-cover h-[6rem] py-8 md:px-20 px-4 sticky top-[calc(61px+28px)]">
         <h2 className="font-bold font-[agency] tracking-wider text-white text-4xl">About</h2>
         <nav className=''>
           <ul className='flex gap-2 items-center text-white text-sm'>
@@ -24,7 +24,7 @@ const About = () => {
           <p className='text-justify'>The  Model G20   Jamia Millia Islamia  provides an excellent opportunity for students to develop critical thinking, leadership, communication, and problem-solving skills. It also offers a chance to network with peers and professionals from diverse backgrounds and gain valuable insights into global issues and perspectives.</p>
         </div>
         <div className='md:w-[40%] w-full'>
-          <img src="/images/g20-about.webp" className='object-cover w-full overflow-hidden' alt="" />
+          <img src="/images/g20-about.webp" className='object-cover w-full sticky top-[calc(100px+96px)] overflow-hidden' alt="" />
         </div>
       </div>
     </div>

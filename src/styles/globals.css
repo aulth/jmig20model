@@ -22,7 +22,7 @@ src:url('/fonts/agency.ttf');
 }
 
 .footer-top-border{
-
+  background: linear-gradient(to right, #FFA500 15%, #dadada 30%,#dadada 60%, #00ff00 100%);
 }
 body {
   overflow-x:hidden;

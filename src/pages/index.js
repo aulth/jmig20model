@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Craousel />
-      <div className="container mx-auto  bg-[url('/images/bg-art.png')] bg-cover bg-white">
+      <div className="container mx-auto   bg-[url('/images/bg-art.png')] bg-cover bg-white">
         <div className='w-full flex gap-8 justify-between md:flex-row flex-col py-8 md:px-20 px-4'>
           <div className='md:w-[60%] w-full'>
             <p className='text-justify'>The  Model G20   Jamia Millia Islamia  is a prestigious event organized by the  Jamia Millia Islamia  University in India. The event aims to simulate the annual meetings of the Group of Twenty (G20) countries, where the leaders of the world's largest economies come together to discuss global socio-political and economic issues and formulate policies to address them.</p>
@@ -42,7 +42,7 @@ export default function Home() {
             <p className='text-justify'>The  Model G20   Jamia Millia Islamia  provides an excellent opportunity for students to develop critical thinking, leadership, communication, and problem-solving skills. It also offers a chance to network with peers and professionals from diverse backgrounds and gain valuable insights into global issues and perspectives.</p>
           </div>
           <div className='md:w-[40%] w-full'>
-            <img src="/images/g20-about.webp" className='object-cover w-full overflow-hidden' alt="" />
+            <img  src="/images/g20-about.webp" className='object-cover sticky top-[100px] w-full overflow-hidden' alt="" />
           </div>
         </div>
       </div>
