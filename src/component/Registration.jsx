@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const Registration = () => {
   return (
     <div className="container mx-auto   mt-[61px] bg-white">
